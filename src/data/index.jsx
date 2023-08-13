@@ -158,8 +158,8 @@ const dataportfolio = [
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: 'name@domain.com',
-  YOUR_FONE: '(555)123-4567',
+  YOUR_EMAIL: 'sebinjoepaul.cm@gmail.com',
+  YOUR_PHONE: '(862)237-3546',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ',
   // creat an emailjs.com account

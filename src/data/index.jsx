@@ -1,20 +1,19 @@
 const logotext = 'Dazai';
 const meta = {
-  title: 'John Doe',
-  description:
-    'I’m John Doe data scientist _ Full stack devloper,currently working in Berlin',
+  title: 'Sebin Joe Paul',
+  description: 'I’m Sebin Joe Paul Software devloper,currently living in USA',
 };
 
 const introdata = {
-  title: 'I’m John Doe',
+  title: 'I’m Sebin Joe Paul',
   animated: {
     first: 'I love coding',
     second: 'I code cool websites',
-    third: 'I develop mobile apps',
+    third: 'I play games',
   },
-  description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum',
-  your_img_url: 'https://images.unsplash.com/photo-1514790193030-c89d266d5a9d',
+  description: 'Still thinking',
+  your_img_url:
+    'https://sd.keepcalms.com/i/the-best-way-to-predict-the-future-is-to-create-it-1.png',
 };
 
 const dataabout = {
@@ -158,15 +157,12 @@ const dataportfolio = [
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: 'sebinjoepaul.cm@gmail.com',
+  YOUR_EMAIL: 'sebin.joepaul@gmail.com',
   YOUR_PHONE: '(862)237-3546',
-  description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ',
-  // creat an emailjs.com account
-  // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: 'service_id',
-  YOUR_TEMPLATE_ID: 'template_id',
-  YOUR_USER_ID: 'user_id',
+  description: 'Hi I am looking for Job Opportunity ',
+  YOUR_SERVICE_ID: 'service_m8hxr8b',
+  YOUR_TEMPLATE_ID: 'template_r4sobw7',
+  YOUR_USER_ID: 'CwpGJr_5iJTz_-fvj',
 };
 
 const socialprofils = {

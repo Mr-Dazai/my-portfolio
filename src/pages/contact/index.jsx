@@ -43,6 +43,7 @@ export const ContactUs = () => {
                 ''
               )}
             </address>
+            {/* <p>{contactConfig.description}</p> */}
           </Col>
         </Row>
       </Container>

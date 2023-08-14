@@ -4,7 +4,7 @@ import { VscGrabber, VscClose } from 'react-icons/vsc';
 import { Link } from 'react-router-dom';
 import { logotext, socialprofils } from '../data';
 import { RiHome2Line } from 'react-icons/ri';
-// import Themetoggle from '../components/themetoggle';
+import Themetoggle from '../components/themetoggle';
 
 const Headermain = () => {
   const [isActive, setActive] = useState('false');
@@ -29,7 +29,7 @@ const Headermain = () => {
             /> */}
           </Link>
           <div className='d-flex align-items-center'>
-            {/* <Themetoggle /> */}
+            <Themetoggle />
             <button className='menu__button  nav_ac' onClick={handleToggle}>
               {!isActive ? <VscClose /> : <VscGrabber />}
             </button>

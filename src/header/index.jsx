@@ -3,6 +3,7 @@ import './styles.css';
 import { VscGrabber, VscClose } from 'react-icons/vsc';
 import { Link } from 'react-router-dom';
 import { logotext, socialprofils } from '../data';
+import { RiHome2Line } from 'react-icons/ri';
 // import Themetoggle from '../components/themetoggle';
 
 const Headermain = () => {
@@ -17,8 +18,15 @@ const Headermain = () => {
     <>
       <header className='fixed-top site__header'>
         <div className='d-flex align-items-center justify-content-between'>
-          <Link className='navbar-brand nav_ac' to='/'>
-            {logotext}
+          <Link className='navbar-brand nav_ac logo' to='/'>
+            {/* <a href='/'>
+              <img src='../assets/book.png' />
+            </a> */}
+            <RiHome2Line />
+            {/* <img
+              src='C:\Users\Dazai\Desktop\Web Test\my-portfolio\src\assets\logo.png'
+              alt='LOGO'
+            /> */}
           </Link>
           <div className='d-flex align-items-center'>
             {/* <Themetoggle /> */}

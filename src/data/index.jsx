@@ -5,7 +5,7 @@ const meta = {
 };
 
 const introdata = {
-  title: 'I’m Sebin Joe Paul',
+  title: 'Sebin Joe Paul',
   animated: {
     first: 'I love coding',
     second: 'I code cool websites',
@@ -169,7 +169,9 @@ const socialprofils = {
   github: 'https://github.com',
   facebook: 'https://facebook.com',
   linkedin: 'https://linkedin.com',
-  twitter: 'https://twitter.com',
+  instagram: 'https://twitter.com',
+  discord: 'https://twitter.com',
+  twitch: 'https://twitter.com',
 };
 export {
   meta,

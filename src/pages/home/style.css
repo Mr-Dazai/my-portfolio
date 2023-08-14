@@ -6,7 +6,9 @@ section {
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
 }
-
+.mb-1x {
+  color: #ff0000;
+}
 .who_am_I {
   font-family: Cinzel;
 }

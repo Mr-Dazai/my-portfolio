@@ -3,7 +3,12 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-
+.logo {
+  width: 100px;
+  height: 100px;
+  /* display: block; */
+  /* text-indent: -9999px; */
+}
 .menu__button {
   color: var(--text-color);
 }

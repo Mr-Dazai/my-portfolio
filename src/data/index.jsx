@@ -166,12 +166,11 @@ const contactConfig = {
 };
 
 const socialprofils = {
-  github: 'https://github.com',
-  facebook: 'https://facebook.com',
-  linkedin: 'https://linkedin.com',
+  github: 'https://github.com/Mr-Dazai',
+  linkedin: 'https://www.linkedin.com/in/sebin-joe-paul/',
   instagram: 'https://twitter.com',
-  discord: 'https://twitter.com',
-  twitch: 'https://twitter.com',
+  discord: 'discordapp.com/users/386366788155211797',
+  twitch: 'https://www.twitch.tv/mr_dazai_',
 };
 export {
   meta,

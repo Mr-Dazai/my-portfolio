@@ -23,10 +23,7 @@ const Headermain = () => {
               <img src='../assets/book.png' />
             </a> */}
             <RiHome2Line />
-            {/* <img
-              src='C:\Users\Dazai\Desktop\Web Test\my-portfolio\src\assets\logo.png'
-              alt='LOGO'
-            /> */}
+            {/* <img src='../assets/logo.png' alt='LOGO' /> */}
           </Link>
           <div className='d-flex align-items-center'>
             <Themetoggle />

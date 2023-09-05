@@ -37,8 +37,7 @@ export const Portfolio = () => {
             <div className='project-box__content'>
               <h3> To-Do List </h3>
               <h6>
-                Node.js &nbsp; Express.js &nbsp; HTML&nbsp; CSS &nbsp;
-                Javascript{' '}
+                Node.js &nbsp; Express.js &nbsp; MongoDB&nbsp; HTML&nbsp; CSS
               </h6>
             </div>
           </div>
@@ -46,7 +45,7 @@ export const Portfolio = () => {
           <div className='project-box'>
             <div className='project-box__link'>
               <a
-                href='https://github.com/israelmitolu/Learn-Context-by-Building-a-Shopping-Website'
+                href='https://github.com/Mr-Dazai/my-portfolio'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -55,7 +54,7 @@ export const Portfolio = () => {
                 </h4>
               </a>
               <a
-                href='https://shop-context.netlify.app/'
+                href='https://sebin.joepaul.com/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -73,7 +72,7 @@ export const Portfolio = () => {
           <div className='project-box'>
             <div className='project-box__link'>
               <a
-                href='https://github.com/israelmitolu/The-Weirdos-NFT'
+                href='https://github.com/Mr-Dazai/SneakerBox-API'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -92,10 +91,10 @@ export const Portfolio = () => {
               </a>
             </div>
             <div className='project-box__content'>
-              <h3> Project </h3>
-              <h5>
-                React.js &nbsp; Node.js &nbsp; HTML&nbsp; CSS &nbsp; Javascript{' '}
-              </h5>
+              <h3> SneakerBox Store &nbsp; &nbsp;API-Back-end </h3>
+              <h6>
+                Node.js &nbsp; Express.js &nbsp; MongoDB&nbsp; HTML&nbsp; CSS
+              </h6>
             </div>
           </div>
 
@@ -121,8 +120,34 @@ export const Portfolio = () => {
               </a>
             </div>
             <div className='project-box__content'>
-              <h3> Project </h3>
-              <h5>React.js &nbsp; Node.js &nbsp; Javascript </h5>
+              <h3> SneakerBox Store Website </h3>
+              <h6>React.js &nbsp; HTML&nbsp; CSS &nbsp; Javascript </h6>
+            </div>
+          </div>
+          <div className='project-box'>
+            <div className='project-box__link'>
+              <a
+                href='https://github.com/Mr-Dazai/Wikipedia-API'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <h4>
+                  <FaGithub name='logo-github'></FaGithub>
+                </h4>
+              </a>
+              <a
+                href='https://mr-dazai.github.io/Wikipedia-API/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <h4>
+                  <BiLinkExternal />
+                </h4>
+              </a>
+            </div>
+            <div className='project-box__content'>
+              <h3> Wikipedia-API </h3>
+              <h6>HTML&nbsp; CSS &nbsp; Javascript </h6>
             </div>
           </div>
           <div className='project-box'>
@@ -148,33 +173,7 @@ export const Portfolio = () => {
             </div>
             <div className='project-box__content'>
               <h3> Project </h3>
-              <h5>React.js &nbsp; Node.js &nbsp; Javascript </h5>
-            </div>
-          </div>
-          <div className='project-box'>
-            <div className='project-box__link'>
-              <a
-                href='https://github.com/israelmitolu/fisayo-fosudo'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <h4>
-                  <FaGithub name='logo-github'></FaGithub>
-                </h4>
-              </a>
-              <a
-                href='https://fisayofosudo.netlify.app'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <h4>
-                  <BiLinkExternal />
-                </h4>
-              </a>
-            </div>
-            <div className='project-box__content'>
-              <h3> Project </h3>
-              <h5>React.js &nbsp; Node.js &nbsp; Javascript </h5>
+              <h5>HTML&nbsp; CSS &nbsp; Javascript </h5>
             </div>
           </div>
 

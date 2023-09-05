@@ -1,7 +1,7 @@
-import './style.css';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
-import { FaGithub } from 'react-icons/fa';
-import { BiLinkExternal } from 'react-icons/bi';
+import './style.css'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
+import { FaGithub } from 'react-icons/fa'
+import { BiLinkExternal } from 'react-icons/bi'
 export const Portfolio = () => {
   return (
     <HelmetProvider>
@@ -16,7 +16,7 @@ export const Portfolio = () => {
           <div className='project-box'>
             <div className='project-box__link'>
               <a
-                href='https://github.com/israelmitolu/flexibbble'
+                href='https://github.com/Mr-Dazai/To-Do-App'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -25,7 +25,7 @@ export const Portfolio = () => {
                 </h4>
               </a>
               <a
-                href='https://im-flexibbble.vercel.app/'
+                href='https://to-do-app-4w93.onrender.com/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -35,10 +35,11 @@ export const Portfolio = () => {
               </a>
             </div>
             <div className='project-box__content'>
-              <h3> Project </h3>
-              <h5>
-                React.js &nbsp; Node.js &nbsp; HTML&nbsp; CSS &nbsp; Javascript{' '}
-              </h5>
+              <h3> To-Do List </h3>
+              <h6>
+                Node.js &nbsp; Express.js &nbsp; HTML&nbsp; CSS &nbsp;
+                Javascript{' '}
+              </h6>
             </div>
           </div>
 
@@ -64,10 +65,8 @@ export const Portfolio = () => {
               </a>
             </div>
             <div className='project-box__content'>
-              <h3> Project </h3>
-              <h5>
-                React.js &nbsp; Node.js &nbsp; HTML&nbsp; CSS &nbsp; Javascript{' '}
-              </h5>
+              <h3> Portfolio Website </h3>
+              <h6>React.js &nbsp; HTML&nbsp; CSS &nbsp; Javascript </h6>
             </div>
           </div>
 
@@ -208,5 +207,5 @@ export const Portfolio = () => {
         </div>
       </section>
     </HelmetProvider>
-  );
-};
+  )
+}

@@ -150,7 +150,7 @@ export const Portfolio = () => {
           <div className='project-box'>
             <div className='project-box__link'>
               <a
-                href='https://github.com/israelmitolu/fisayo-fosudo'
+                href='https://github.com/Mr-Dazai/Django-Building-Portfolio'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -158,7 +158,11 @@ export const Portfolio = () => {
                   <FaGithub name='logo-github'></FaGithub>
                 </h4>
               </a>
-              <a href='#' target='_blank' rel='noopener noreferrer'>
+              <a
+                href='https://github.com/Mr-Dazai/Django-Building-Portfolio'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <h4>
                   <BiLinkExternal />
                 </h4>

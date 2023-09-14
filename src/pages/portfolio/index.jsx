@@ -9,6 +9,7 @@ export const Portfolio = () => {
         <meta charSet='utf-8' />
         <title> Sebin | Portfolio</title>
       </Helmet>
+
       <section id='projects' className='project'>
         <h5>— check out some </h5>
         <h2>Stuff &nbsp;I’ve worked on &nbsp; 💻</h2>
@@ -81,7 +82,7 @@ export const Portfolio = () => {
                 </h4>
               </a>
               <a
-                href='https://weirdos-nft.netlify.app/'
+                href='https://sneakerbox-api.onrender.com'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -101,7 +102,7 @@ export const Portfolio = () => {
           <div className='project-box'>
             <div className='project-box__link'>
               <a
-                href='https://github.com/israelmitolu/react-music-player'
+                href='https://github.com/Mr-Dazai/SneakerBox-Web'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -109,11 +110,7 @@ export const Portfolio = () => {
                   <FaGithub name='logo-github'></FaGithub>
                 </h4>
               </a>
-              <a
-                href='https://lofi-playlist.netlify.app'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
+              <a href='#' target='_blank' rel='noopener noreferrer'>
                 <h4>
                   <BiLinkExternal />
                 </h4>
@@ -161,26 +158,22 @@ export const Portfolio = () => {
                   <FaGithub name='logo-github'></FaGithub>
                 </h4>
               </a>
-              <a
-                href='https://fisayofosudo.netlify.app'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
+              <a href='#' target='_blank' rel='noopener noreferrer'>
                 <h4>
                   <BiLinkExternal />
                 </h4>
               </a>
             </div>
             <div className='project-box__content'>
-              <h3> Project </h3>
-              <h5>HTML&nbsp; CSS &nbsp; Javascript </h5>
+              <h3> Django Project </h3>
+              <h5>Python&nbsp; Django &nbsp; Javascript </h5>
             </div>
           </div>
 
           <div className='project-box'>
             <div className='project-box__link'>
               <a
-                href='https://github.com/israelmitolu/Digitaly'
+                href='https://github.com/Mr-Dazai/QR-Code-Generator-Docker'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -189,7 +182,7 @@ export const Portfolio = () => {
                 </h4>
               </a>
               <a
-                href='https://digitaly.netlify.app/'
+                href='https://github.com/Mr-Dazai/QR-Code-Generator-Docker'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -199,8 +192,26 @@ export const Portfolio = () => {
               </a>
             </div>
             <div className='project-box__content'>
-              <h3> Project </h3>
-              <h5>React.js &nbsp; Node.js &nbsp; Javascript </h5>
+              <h3> Docker Project </h3>
+              <h5>Python &nbsp; Docker &nbsp; Tkinter </h5>
+            </div>
+          </div>
+          <div className='project-box'>
+            <div className='project-box__link'>
+              <a
+                href='https://github.com/israelmitolu/Digitaly'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <h4>{/* <FaGithub name='logo-github'></FaGithub> */}</h4>
+              </a>
+              <a href='#' target='_blank' rel='noopener noreferrer'>
+                <h4>{/* <BiLinkExternal /> */}</h4>
+              </a>
+            </div>
+            <div className='project-box__content'>
+              <h3> Connect Project (Inprogerss)</h3>
+              <h5>WebRTC &nbsp; socket.io &nbsp; Javascript </h5>
             </div>
           </div>
         </div>

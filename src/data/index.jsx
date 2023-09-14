@@ -1,8 +1,13 @@
-const logotext = 'Dazai';
+const logotext = 'Dazai'
+import python from '../assets/python.svg'
+import javascript from '../assets/javascript.svg'
+import nodejs from '../assets/nodejs.svg'
+import react from '../assets/react.svg'
+import django from '../assets/django.svg'
 const meta = {
   title: 'Sebin Joe Paul',
   description: 'I’m Sebin Joe Paul Software devloper,currently living in USA',
-};
+}
 
 const introdata = {
   title: 'Sebin Joe Paul',
@@ -11,159 +16,84 @@ const introdata = {
     second: 'I code cool websites',
     third: 'I play games',
   },
-  description: 'Still thinking',
-  your_img_url:
-    'https://sd.keepcalms.com/i/the-best-way-to-predict-the-future-is-to-create-it-1.png',
-};
+  description: 'Graduate student on a journey to become a developer',
+}
 
 const dataabout = {
-  title: 'abit about my self',
+  title: 'a bit about my self',
   aboutme:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.',
-};
-const worktimeline = [
-  {
-    jobtitle: 'Designer of week',
-    where: 'YAdfi',
-    date: '2020',
-  },
-  {
-    jobtitle: 'Designer of week',
-    where: 'Jamalya',
-    date: '2019',
-  },
-  {
-    jobtitle: 'Designer of week',
-    where: 'ALquds',
-    date: '2019',
-  },
-];
+    'I’m that person who’s always captivated by the possibilities of coding. Think of me as a problem solver armed with a keyboard and a love for turning wild ideas into functional software. My university days have been all about diving deep into the fascinating world of computer science, learning about algorithms, data structures, and the art of crafting software.',
+  aboutme1:
+    'Outside of coding, I’m not your typical tech geek. You might catch me exploring new coding challenges, or you might even find me at a hackathon, embracing the thrill of competition and innovation.',
+}
 
 const skills = [
   {
     name: 'Python',
+    logo: python,
     value: 90,
   },
   {
-    name: 'Djano',
+    name: 'Javascript',
+    logo: javascript,
     value: 85,
   },
   {
-    name: 'Javascript',
-    value: 80,
+    name: 'Node',
+    logo: nodejs,
+    value: 85,
   },
   {
     name: 'React',
-    value: 60,
+    logo: react,
+    value: 80,
   },
   {
-    name: 'Jquery',
-    value: 85,
+    name: 'Django',
+    logo: django,
+    value: 70,
   },
-];
+]
 
-const services = [
+const otherskills = [
   {
-    title: 'UI & UX Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.',
+    title: 'Other Programming Languages & Frameworks',
+    description: ' Java | GO | C++',
+    description2: ' Express | Bootstrap | Flask',
   },
   {
-    title: 'Mobile Apps',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.',
+    title: 'Database Management',
+    description: 'MySQL(Oracle) | SQL | MongoDB',
   },
   {
-    title: 'Wordpress Design',
+    title: 'Libraries',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.',
-  },
-];
-
-const dataportfolio = [
-  {
-    img: 'https://picsum.photos/400/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+      'Apache | Matplotlib | Pandas | NumPy | Pillow | Tkinter | PyQt5 | Redux | Axios',
   },
   {
-    img: 'https://picsum.photos/400/800/?grayscale',
+    title: 'Web Services',
     description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+      'Heroku | Render | Firebase APIs | REST API | Nginx | AWS Lambda',
   },
   {
-    img: 'https://picsum.photos/400/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+    title: 'Containerization & Version Control',
+    description: 'Docker | Docker Swarm | Kubernetes | Git',
   },
   {
-    img: 'https://picsum.photos/400/600/?grayscale',
+    title: 'Applications & Software',
     description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+      ' Visual Studio Code | GitHub | PyCharm | Eclipse | Android Studio | Postman | Figma',
   },
-  {
-    img: 'https://picsum.photos/400/300/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/700/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-
-  {
-    img: 'https://picsum.photos/400/600/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/300/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/550/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/700/?grayscale',
-    description:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-];
+]
 
 const contactConfig = {
   YOUR_EMAIL: 'sebin.joepaul@gmail.com',
-  YOUR_PHONE: '(862)237-3546',
-  description: 'Hi I am looking for Job Opportunity ',
+  description:
+    'Thanks for stopping by my portfolio! Whether you’re a fellow developer, a potential project partner, or just curious about the world of coding, I’m all ears for a chat.',
   YOUR_SERVICE_ID: 'service_m8hxr8b',
   YOUR_TEMPLATE_ID: 'template_r4sobw7',
   YOUR_USER_ID: 'CwpGJr_5iJTz_-fvj',
-};
+}
 
 const socialprofils = {
   github: 'https://github.com/Mr-Dazai',
@@ -171,16 +101,14 @@ const socialprofils = {
   instagram: 'https://twitter.com',
   discord: 'discordapp.com/users/386366788155211797',
   twitch: 'https://www.twitch.tv/mr_dazai_',
-};
+}
 export {
   meta,
   dataabout,
-  dataportfolio,
-  worktimeline,
   skills,
-  services,
+  otherskills,
   introdata,
   contactConfig,
   socialprofils,
   logotext,
-};
+}

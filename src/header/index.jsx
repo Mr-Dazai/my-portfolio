@@ -1,29 +1,25 @@
-import React, { useState } from 'react';
-import './styles.css';
-import { VscGrabber, VscClose } from 'react-icons/vsc';
-import { Link } from 'react-router-dom';
-import { logotext, socialprofils } from '../data';
-import { RiHome2Line } from 'react-icons/ri';
-import Themetoggle from '../components/themetoggle';
+import React, { useState } from 'react'
+import './styles.css'
+import { VscGrabber, VscClose } from 'react-icons/vsc'
+import { Link } from 'react-router-dom'
+import { socialprofils } from '../data'
+import Themetoggle from '../components/themetoggle'
+import dazai from '../assets/aip40-xaa16.svg'
 
 const Headermain = () => {
-  const [isActive, setActive] = useState('false');
+  const [isActive, setActive] = useState('false')
 
   const handleToggle = () => {
-    setActive(!isActive);
-    document.body.classList.toggle('ovhidden');
-  };
+    setActive(!isActive)
+    document.body.classList.toggle('ovhidden')
+  }
 
   return (
     <>
       <header className='fixed-top site__header'>
         <div className='d-flex align-items-center justify-content-between'>
           <Link className='navbar-brand nav_ac logo' to='/'>
-            {/* <a href='/'>
-              <img src='../assets/book.png' />
-            </a> */}
-            <RiHome2Line />
-            {/* <img src='../assets/logo.png' alt='LOGO' /> */}
+            <img src={dazai} alt='LOGO' />
           </Link>
           <div className='d-flex align-items-center'>
             <Themetoggle />
@@ -82,7 +78,7 @@ const Headermain = () => {
       <div className='br-left'></div>
       <div className='br-right'></div>
     </>
-  );
-};
+  )
+}
 
-export default Headermain;
+export default Headermain

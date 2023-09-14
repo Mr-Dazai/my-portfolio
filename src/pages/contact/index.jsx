@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import emailjs from '@emailjs/browser';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
-import { Container, Row, Col, Alert } from 'react-bootstrap';
-import { contactConfig } from '../../data';
-import './style.css';
+import React, { useState } from 'react'
+import emailjs from '@emailjs/browser'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
+import { Container, Row, Col, Alert } from 'react-bootstrap'
+import { contactConfig } from '../../data'
+import './style.css'
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
     email: '',
@@ -13,18 +13,18 @@ export const ContactUs = () => {
     show: false,
     alertmessage: '',
     variant: '',
-  });
+  })
   const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Submit');
-    setFormdata({ loading: true });
+    e.preventDefault()
+    console.log('Submit')
+    setFormdata({ loading: true })
 
     const templateParams = {
       from_name: formData.email,
       user_name: formData.name,
       to_name: contactConfig.YOUR_EMAIL,
       message: formData.message,
-    };
+    }
 
     emailjs
       .send(
@@ -35,31 +35,31 @@ export const ContactUs = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log(result.text)
           setFormdata({
             loading: false,
             alertmessage: 'Success! ,Thank you for your messege',
             variant: 'success',
             show: true,
-          });
+          })
         },
         (error) => {
-          console.log(error.text);
+          console.log(error.text)
           setFormdata({
             alertmessage: `Faild to send!,${error.text}`,
             variant: 'danger',
             show: true,
-          });
-          document.getElementsByClassName('co_alert')[0].scrollIntoView();
+          })
+          document.getElementsByClassName('co_alert')[0].scrollIntoView()
         }
-      );
-  };
+      )
+  }
   const handleChange = (e) => {
     setFormdata({
       ...formData,
       [e.target.name]: e.target.value,
-    });
-  };
+    })
+  }
   return (
     <HelmetProvider>
       <Container>
@@ -96,13 +96,6 @@ export const ContactUs = () => {
               </a>
               <br />
               <br />
-              {contactConfig.hasOwnProperty('YOUR_PHONE') ? (
-                <p>
-                  <strong>Phone:</strong> {contactConfig.YOUR_PHONE}
-                </p>
-              ) : (
-                ''
-              )}
             </address>
             <p>{contactConfig.description}</p>
           </Col>
@@ -158,5 +151,5 @@ export const ContactUs = () => {
       </Container>
       <div className={formData.loading ? 'loading-bar' : 'd-none'}></div>
     </HelmetProvider>
-  );
-};
+  )
+}

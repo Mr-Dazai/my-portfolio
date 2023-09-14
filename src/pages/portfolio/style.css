@@ -78,6 +78,13 @@
 .project .project-box:nth-child(7):hover:after .project-box__link {
   width: min-content;
 }
+.project .project-box:nth-child(8):hover:after {
+  background: lightseagreen;
+  outline: 2px solid lightseagreen;
+}
+.project .project-box:nth-child(8):hover:after .project-box__link {
+  width: min-content;
+}
 .project-box__link {
   align-self: flex-end;
   width: 25%;
